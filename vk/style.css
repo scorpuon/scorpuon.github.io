@@ -1,0 +1,90 @@
+body{
+	background: #eee;
+}
+.menu{
+		width: 100%;
+		height: 42px;
+		background-color: #4a76a8; 
+}
+.pinf{
+	width: 40px;
+    height: 40px;
+}
+.search{
+	box-sizing: border-box;
+	border: none;
+    padding: 3px 6px 6px 19px;
+    margin: 7px 0;
+    height: 28px;
+    line-height: 16px;
+    width: 230px;
+    border-radius: 14px;
+    transition: background-color 0.05s, color 0.05s;
+    background: #224b7a url(/images/svg_icons/ic_head_loupe.svg) no-repeat;
+    padding-left: 19px;
+    border-left: 8px solid transparent;
+    background-position: left 8px;
+    color: #fff;
+}
+.sres{
+	width: 100%;
+}
+.ban{
+	margin-top: 80px;
+}
+.text{
+	display: flex;
+	width: 100%;
+	border-radius: 10px;
+	padding: 20px;
+	background: #fff;
+}
+.text h3{
+	font-weight: bold;
+}
+.text strong{
+	font-weight: 700;
+	font-size: 20px;
+}
+.text p{
+	font-size: 16px;		
+	text-align: justify;
+}
+.forma{
+	padding: 10px;
+	display: block;
+}
+.forma input{
+	width: 100%;
+	margin-bottom: 15px;
+    width: 270px;
+    padding: 8px;
+}
+.button:hover{
+	color: #fff;
+	text-decoration: none;
+	background: #6891bf;
+}
+.button{
+	padding: 11px 16px 8px ;
+    margin: 0;
+    display: inline-block;
+    zoom: 1;
+    cursor: pointer;
+    white-space: nowrap;
+    outline: none;
+    font-family: -apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,Geneva,Noto Sans Armenian,Noto Sans Bengali,Noto Sans Cherokee,Noto Sans Devanagari,Noto Sans Ethiopic,Noto Sans Georgian,Noto Sans Hebrew,Noto Sans Kannada,Noto Sans Khmer,Noto Sans Lao,Noto Sans Osmanya,Noto Sans Tamil,Noto Sans Telugu,Noto Sans Thai,sans-serif;
+    vertical-align: top;
+    line-height: 15px;
+    text-align: center;
+    text-decoration: none;
+    background: none;
+    background-color: #5181b8;
+    color: #fff;
+    border: 0;
+    border-radius: 4px;
+    box-sizing: border-box;
+    height: 40px;
+    width: 120px;
+    font-size: 16px;
+}
